@@ -1,0 +1,164 @@
+*{margin: 0; padding: 0;}
+.thongTinL {
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    float: left;
+}
+.thongTinR {
+    width: 30%;
+    height: 100%;
+    background-image: url(images/comment.PNG);
+    background-size: cover;
+    float: left;
+}
+.hienThiSlide {
+    width: 70%;
+    height: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.popup .nenDen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup .nenDen.hienThi{
+    opacity: 1;
+    visibility: visible;
+}
+.nenDen .closeTab{
+    background-image: url(images/Close.png);
+    width: 18px;
+    height: 18px;
+    background-position: -262px -123px;
+    background-size: auto;
+    float: right;
+    margin: 20px 20px 0 0;
+    opacity: 0.6;
+}
+
+.closeTab:hover {
+    opacity: 1;
+}
+.anhchovui {
+    width: 100%;
+}
+
+.anhchovui img {
+    width: 100%;
+}
+
+.ngaythang {
+    color: #c3c1c1;
+}
+
+.textnd {
+    color: gray;
+    font-family: segoe ui;
+}
+.textnd p{
+    cursor: pointer;
+    display: inline;
+    font-weight: bold;
+    color: #4267b2;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.aphai {
+    width: 85%;
+    float: left;
+    margin-top: 10px;
+}
+
+.atrai img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.atrai {
+    width: 13%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    float: left;
+}
+
+._3anhduoi img {
+    width: 100%;
+    margin: 1% 0px  0 1%;
+}
+img.anhtren {
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.cacAnh img {
+    cursor: pointer;
+}
+._3anhduoi {
+    width: 40%;
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.cacAnh {
+    width: 100%;
+    height: 590px;
+}
+
+.avatar {
+    margin: 1% 0;
+    width: 100%;
+    height: 80px;
+}
+section.noidungchinh{margin-top: 44px;width: 100%;height: 100%;}
+.trai {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+.trai img{
+    width: 12.2%;
+    position: fixed;
+    left: 7.8%;
+}
+.giua {
+    float: left;
+    height: 100%;
+    width: 35%;
+}
+
+.phai {
+    width: 35%;
+    float: left;
+}
+
+.phai img {
+    width: 45%;
+    position: fixed;
+    right: 0px;
+}
+.menu_tren {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #4267b2;
+}

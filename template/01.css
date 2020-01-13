@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;}
 
-p.nutTrai, p,nutPhai {
+p.nutTrai, p.nutPhai {
     position: absolute;
     background-image: url(images/Close.png);
     background-repeat: no-repeat;

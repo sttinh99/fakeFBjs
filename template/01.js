@@ -8,13 +8,15 @@ var anh = 0;
 dongTab.addEventListener('click',function(){
     showSlide.classList.remove('hienThi');
 })
+// showSlide.addEventListener('click',function(){
+//     showSlide.classList.remove('hienThi');
+// })
 for(var i =0;i<anhs.length;i++)
 {
     anhs[i].addEventListener('click', function(){
         showSlide.classList.add('hienThi');
     })
 }
-
 chuyenP.addEventListener('click',function(){
     if(anh >= 0)
     {
